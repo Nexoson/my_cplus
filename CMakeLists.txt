@@ -10,5 +10,5 @@ foreach (file ${files})
     add_executable (${exe} ${file})
     message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
-#add_executable(my_cplus main.cpp prepare_eaxm/point_test/PointDefine.cpp prepare_eaxm/point_test/PointDefine.h)
+#add_executable(my_cplus main.cpp prepare_exam/point_test/PointDefine.cpp prepare_exam/point_test/PointDefine.h)
 
